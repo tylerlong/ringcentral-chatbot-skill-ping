@@ -1,6 +1,6 @@
 {
   "name": "ringcentral-chatbot-skill-ping",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "index-compiled.js",
   "scripts": {
@@ -14,6 +14,9 @@
     "husky": "^1.2.1",
     "standard": "^12.0.1",
     "yarn-upgrade-all": "^0.5.0"
+  },
+  "peerDependencies": {
+    "ringcentral-chatbot": "^0.4.6"
   },
   "standard": {
     "ignore": [
